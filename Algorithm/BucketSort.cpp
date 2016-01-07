@@ -10,20 +10,14 @@ int main()
         a[t]++;
     }
 
-    for(i=0;i<11;i++){
-        for(j=0;j<a[i];j++){
+    for(i=0;i<11;i++)
+        for(j=0;j<a[i];j++)
             printf("%d ",i);
-        }
-    }
-
     printf("\n");
 
-    for(i=10;i>=0;i--){
-        for(j=0;j<a[i];j++){
-            printf("%d ", i);
-        }
-    }
-
+    for(i=10;i>=0;i--)
+        for(j=0;j<a[i];j++)
+            printf("%d ",i);
     printf("\n");
 
     getchar();
