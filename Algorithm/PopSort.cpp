@@ -13,8 +13,8 @@ int main()
 	}
 
 	for(i=0;i<100-1;i++){
-		for(j=1;j<100-i-1;j++){
-			if(a[i]<a[j]){
+		for(j=i+1;j<100;j++){
+			if(a[i]>a[j]){
 				t=a[i];
 				a[i]=a[j];
 				a[j]=t;
