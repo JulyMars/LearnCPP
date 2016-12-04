@@ -1,5 +1,5 @@
 /**
- * Chapter 1,Section 2,Test 2 冒泡排序,结构体
+ * Chapter 1,Section 2,Test 2 冒泡排序,学生结构体
  * input: 5
 huhu 5 
 haha 3
