@@ -1,5 +1,7 @@
 /**
  * Chapter 1,Section 1 桶排序
+ * input: 3 5 3 2 8
+ * output: 2 3 3 5 8
  */
 #include <stdio.h>
 
